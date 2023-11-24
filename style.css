@@ -1,0 +1,293 @@
+
+body {
+    background-color: #faf6ea;
+    font-family: "Rockwell", serif;
+    margin-left: 200px; /* Add margin here */
+    margin-right: 120px; /* Add margin here */
+    margin-top: 40px; /* Add margin here */
+}
+.custom-button {
+font-size: 30px;
+font-family: 'Rockwell', cursive;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+background-color: #FFC30B;
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+border: 2px solid #000000;
+border-radius: 5px;
+width: 100%;
+height: 50px;
+cursor: pointer;
+position: relative;
+}
+
+.custom-button:hover {
+background-color: #000000;
+color: #FFC30B;
+border: 2px solid #FFC30B;
+}
+
+.custom-button::before {
+font-size: 10px;
+
+content: "[Change Theme]";
+position: absolute;
+bottom: 5px; /* Adjust the distance from the bottom as needed */
+right: 5px; /* Adjust the distance from the right as needed */
+cursor: pointer;
+}
+
+
+.custom-button3 {
+    font-size: 30px;
+    
+    font-family: 'Rockwell', cursive;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFC30B;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width:50%;
+    height: 50px;
+
+    
+
+cursor: pointer;
+position: relative;
+    cursor: pointer; /* Add cursor pointer to indicate interactivity */
+}
+
+.custom-button3::before {
+    font-size: 10px;
+    content: "[See Me Here]";
+    position: absolute;
+    bottom: 5px; /* Adjust the distance from the bottom as needed */
+    right: 5px; /* Adjust the distance from the right as needed */
+}
+.custom-button3:hover {
+    background-color: #000000;
+    color: #FFC30B;
+    border: 2px solid #FFC30B;
+}
+.custom-button2 {
+font-size: 20px;
+display: flex;
+height: 50px;
+width: 150px;
+background-color: #ffc20b;
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+border: 2px solid #000000;
+border-radius: 5px;
+cursor: pointer;
+text-align: center;
+}
+
+.custom-button2:hover {
+    background-color: #000000;
+    color: #FFC30B;
+    border: 2px solid #FFC30B;
+}
+
+
+.custom-button4 {
+font-size: 20px;
+display: flex;
+height: 50px;
+width: 50px;
+background-color: #FFC30B;
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+border: 2px solid #000000;
+border-radius: 5px;
+cursor: pointer;
+text-align: center;
+}
+.custom-button4:hover {
+    background-color: #000000;
+    color: #FFC30B;
+    border: 2px solid #FFC30B;
+}
+
+/* Style the navigation menu */
+#menu {
+    position: fixed; /* Make the menu stay fixed */
+    top: 20; /* Stick to the top of the viewport */
+    left: 10px; /* Stick to the left side of the viewport */
+    width: 120px; /* Set the width of the menu */
+    height: 440px; /* Make the menu cover the entire height of the viewport */
+    background-color: #dfdcd5; /* Set the background color */
+    color: #000000; /* Set the text color */
+    padding: 20px; /* Add some padding for spacing */
+    border: 2px solid #000000; /* Black border */
+    border-radius: 5px;
+}
+
+
+/* Style the navigation links */
+#menu ul {
+list-style: none;
+padding: 0px;
+}
+
+#menu li {
+margin-bottom: 20px; /* Add spacing between menu items */
+}
+
+#menu a {
+font-size: 20px;
+justify-content: center; /* Center the text horizontally */
+align-items: center; /* Center the text vertically */
+
+}
+
+#menu a:hover {
+background-color: #000000;
+color: #FFC30B;
+border-radius: 5px;
+}
+
+.skill-icons {
+display: flex;
+flex-wrap: wrap;
+gap: 20px; /* Adjust the gap as needed */
+}
+
+.skill-box {
+border: 2px solid #000000; /* Black border */
+    border-radius: 5px;
+        padding: 20px; /* Add padding to the boxes for spacing */
+margin: 10px; /* Add margin for spacing between boxes */
+}
+
+.skill-icon {
+display: flex;
+align-items: center;
+}
+
+.skill-icon i {
+font-size:30px; /* Adjust the size as needed */
+margin-right: 10px; /* Adjust the margin as needed */
+
+}
+
+.skill-icon p {
+margin: 10px;
+
+}
+section {
+padding: 20px;
+border: 2px solid #000;
+border-radius: 5px;
+margin: 10px; /* Add margin for spacing between sections */
+}
+.project-box {
+padding: 20px;
+border: 2px solid #000;
+border-radius: 5px;
+margin: 10px;
+}
+
+.project {
+list-style-type: none; /* Remove bullet marks */
+}
+
+.project h3 {
+font-weight: bold;
+}
+
+.project a {
+text-decoration: none;
+color: #0070e0;
+}
+
+.project a:hover {
+text-decoration: underline;
+}
+/* Style the modal */
+/* CSS for the modal */
+.modal-box {
+padding: 20px;
+background-color: #FFC30B;
+border: 2px solid #000;
+border-radius: 5px;
+margin: 10px;
+z-index: 1; /* Set z-index to a lower value */
+}
+
+.modal {
+display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+top: 15.8%;
+left: 55%;
+z-index: 2;
+}
+
+.modal img {
+max-width: 100%;
+max-height: 100%;
+}
+.image-border {
+border: 2px solid #000;
+border-radius: 5px;
+display: block;
+max-width: 100%;
+height: auto;
+}
+@media (max-width: 1000px) {
+
+    .custom-button{font-size: 60px;
+    height: 200px;
+    }
+    .custom-button::before{font-size: 26px;}
+    .custom-button3{font-size: 50px;
+    height: 100px;
+    width: 700px;
+    }
+    .custom-button3::before{font-size: 16px;}
+
+    .custom-button4{
+        height: 100px;
+    width: 70px;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    #menu {
+        display: none;
+    }
+    .modal-box {
+padding: 20px;
+background-color: #FFC30B;
+border: 2px solid #000;
+border-radius: 5px;
+margin: 10px;
+z-index: 1; /* Set z-index to a lower value */
+}
+
+.modal {
+display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+top: 23%;
+left: 0%;
+z-index: 2;
+}
+}
+
